@@ -12,3 +12,16 @@ This project aims to build a fully-functioning e-commerce application REST API t
     Use command line
     Develop locally on your computer
     Document the API using Swagger
+
+#
+To Config run
+> <APP>
+> node app.js #LAUNCH APP
+
+> <DATABASE>
+> node dbconfig.js #CONNECT DATABASE
+
+> <SERVER>
+> "C:\Program Files\PostgreSQL\15\bin\pg_ctl.exe" start -D "C:\Program Files\PostgreSQL\15\data" #START SERVER
+> netstat -an | findstr "5432" #CHECK LISTENING
+> tasklist | findstr "14476" #CHECK PID

@@ -28,4 +28,4 @@ client.query(`Select * from products`, (err, res)=>{
         console.log(err.message);
     }
     client.end;
-})
+});
